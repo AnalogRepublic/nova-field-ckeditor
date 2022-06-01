@@ -40,6 +40,11 @@ import ImageTextAlternative from '@ckeditor/ckeditor5-image/src/imagetextalterna
 import LinkBrowser from './plugins/LinkBrowser'
 import MediaBrowser from './plugins/MediaBrowser'
 import SnippetBrowser from './plugins/SnippetBrowser'
+
+// extras
+import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
+import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting';
+
 // Extend the Base Class
 export default class CkEditor extends ClassicEditorBase {
 
@@ -90,6 +95,8 @@ export default class CkEditor extends ClassicEditorBase {
             Table,
             TableToolbar,
             HtmlEmbed,
+            CodeBlock,
+            SourceEditing
         ]
     }
 }

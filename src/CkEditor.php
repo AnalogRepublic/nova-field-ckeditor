@@ -1,4 +1,6 @@
-<?php namespace BayAreaWebPro\NovaFieldCkEditor;
+<?php
+
+namespace BayAreaWebPro\NovaFieldCkEditor;
 
 use Laravel\Nova\Fields\Expandable;
 use Laravel\Nova\Fields\Field;
@@ -54,6 +56,8 @@ class CkEditor extends Field
         '|',
         'snippetBrowser',
         'htmlEmbed',
+        'codeBlock',
+        'sourceEditing',
         '|',
         'undo',
         'redo'
