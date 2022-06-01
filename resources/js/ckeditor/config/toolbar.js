@@ -25,6 +25,8 @@ export default {
             '|',
             'snippetBrowser',
             'htmlEmbed',
+            'sourceEditing',
+            'codeBlock',
             '|',
             'undo',
             'redo'
