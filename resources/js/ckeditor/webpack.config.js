@@ -16,10 +16,10 @@ const TerserWebpackPlugin = require( 'terser-webpack-plugin' );
 module.exports = {
 	devtool: 'source-map',
 	performance: { hints: false },
-	entry: path.resolve( __dirname, 'source.js' ),
+	entry: path.resolve( __dirname, 'ckeditor.js' ),
 	output: {
         path: path.resolve( __dirname, 'build'),
-        filename: 'editor.js',
+        filename: 'ckeditor.js',
 		library: 'ClassicEditor',
 		libraryTarget: 'umd',
 		libraryExport: 'default'
